@@ -1,0 +1,23 @@
+[project]
+name = "goit-pythonweb-hw-03"
+version = "0.1.0"
+description = "Simple Web Application"
+authors = [
+    {name = "bit-to-bit",email = "vasiliy.pykhteev@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jinja2 (>=3.1.6,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
